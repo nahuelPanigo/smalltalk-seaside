@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Objetos1-DistribuidoraSolution-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fecha",
+		"consumoEnergiaReactiva",
+		"consumoEnergiaActiva"
+	],
+	"name" : "Consumo",
+	"type" : "normal"
+}

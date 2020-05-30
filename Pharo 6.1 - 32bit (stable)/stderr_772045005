@@ -1,0 +1,307 @@
+[31mPrimitiveFailed: primitive #primSize: in MultiByteFileStream failed
+[0mMultiByteFileStream(Object)>>primitiveFailed:
+MultiByteFileStream(Object)>>primitiveFailed
+MultiByteFileStream(StandardFileStream)>>primSize:
+MultiByteFileStream(StandardFileStream)>>size
+MultiByteFileStream(StandardFileStream)>>setToEnd
+SourceFileArray>>forceChangesToDisk
+ChangesLog>>logChange:
+ChangesLog>>logSnapshot:andQuit:
+SessionManager>>snapshot:andQuit:
+[ ^ SessionManager default snapshot: arg1 andQuit: arg2 ] in SmalltalkImage>>snapshot:andQuit: in Block: [ ^ SessionManager default snapshot: arg1 andQuit:...etc...
+CurrentExecutionEnvironment class>>activate:for:
+DefaultExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment class>>beActiveDuring:
+SmalltalkImage>>snapshot:andQuit:
+[ Smalltalk snapshot: true andQuit: false ] in WorldState class>>saveSession in Block: [ Smalltalk snapshot: true andQuit: false ]
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+WorldState class>>saveSession
+[ | tmp2 |
+(tmp2 := selector numArgs) = 0
+	ifTrue: [ target perform: selector ]
+	ifFalse: [ tmp2 = arguments size
+			ifTrue: [ target perform: selector withArguments: arguments ]
+			ifFalse: [ target perform: selector withArguments: (arguments copyWith: arg1) ].
+		self showShortcut ].
+self changed ] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent: in Block: [ | tmp2 |...
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+ToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ arg1 sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ arg1 sentTo: self ]
+[0m[31mPrimitiveFailed: primitive #primSize: in MultiByteFileStream failed
+[0mMultiByteFileStream(Object)>>primitiveFailed:
+MultiByteFileStream(Object)>>primitiveFailed
+MultiByteFileStream(StandardFileStream)>>primSize:
+MultiByteFileStream(StandardFileStream)>>size
+ChangesLog>>logSnapshot:andQuit:
+SessionManager>>snapshot:andQuit:
+[ ^ SessionManager default snapshot: arg1 andQuit: arg2 ] in SmalltalkImage>>snapshot:andQuit: in Block: [ ^ SessionManager default snapshot: arg1 andQuit:...etc...
+CurrentExecutionEnvironment class>>activate:for:
+DefaultExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment class>>beActiveDuring:
+SmalltalkImage>>snapshot:andQuit:
+[ Smalltalk snapshot: true andQuit: false ] in WorldState class>>saveSession in Block: [ Smalltalk snapshot: true andQuit: false ]
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+WorldState class>>saveSession
+[ | tmp2 |
+(tmp2 := selector numArgs) = 0
+	ifTrue: [ target perform: selector ]
+	ifFalse: [ tmp2 = arguments size
+			ifTrue: [ target perform: selector withArguments: arguments ]
+			ifFalse: [ target perform: selector withArguments: (arguments copyWith: arg1) ].
+		self showShortcut ].
+self changed ] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent: in Block: [ | tmp2 |...
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+ToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ arg1 sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ arg1 sentTo: self ]
+BlockClosure>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+ToggleMenuItemMorph(Morph)>>processEvent:using:
+[0m[31mPrimitiveFailed: primitive #primSize: in MultiByteFileStream failed
+[0mMultiByteFileStream(Object)>>primitiveFailed:
+MultiByteFileStream(Object)>>primitiveFailed
+MultiByteFileStream(StandardFileStream)>>primSize:
+MultiByteFileStream(StandardFileStream)>>size
+SourceFileArray>>readStreamAtFileIndex:atPosition:ifPresent:ifAbsent:
+RemoteString>>string
+ClassOrganization>>comment
+ClassOrganization>>classComment
+ClassOrganization>>putCommentOnFile:forClass:
+ContenidoComponent class(ClassDescription)>>fileOutOn:
+ContenidoComponent class(Class)>>fileOutOn:initializing:
+[ :each | each fileOutOn: aFileStream initializing: false ] in SystemOrganizer>>fileOutCategory:on:initializing: in Block: [ :each | each fileOutOn: aFileStream initializing...etc...
+Array(SequenceableCollection)>>do:separatedBy:
+SystemOrganizer>>fileOutCategory:on:initializing:
+SystemOrganizer>>fileOutCategory:on:
+[ :each | 
+SystemOrganization
+	fileOutCategory: each categoryName
+	on: internalStream ] in RPackage>>fileOut in Block: [ :each | ...
+Set>>do:
+RPackage>>fileOut
+[ :package | package asNautilusSelection item fileOut ] in NautilusUI>>fileOutPackages: in Block: [ :package | package asNautilusSelection item file...etc...
+[ :element | 
+aBlock value: element.
+bar increment ] in [ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :element | ...
+Array(SequenceableCollection)>>do:
+[ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :bar | ...
+BlockClosure>>cull:
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ ^ block cull: self ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+CurrentJob(DynamicVariable)>>value:during:
+CurrentJob class(DynamicVariable class)>>value:during:
+[ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ self prepareForRunning....
+BlockClosure>>ensure:
+[0m[31mInstance of MultiByteFileStream did not understand #adaptToNumber:andSend:
+[0mMultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>>>
+SmallInteger>>>
+SourceFileArray>>readStreamAtFileIndex:atPosition:ifPresent:ifAbsent:
+RemoteString>>string
+ClassOrganization>>comment
+ClassOrganization>>classComment
+ClassOrganization>>putCommentOnFile:forClass:
+ContenidoComponent class(ClassDescription)>>fileOutOn:
+ContenidoComponent class(Class)>>fileOutOn:initializing:
+[ :each | each fileOutOn: aFileStream initializing: false ] in SystemOrganizer>>fileOutCategory:on:initializing: in Block: [ :each | each fileOutOn: aFileStream initializing...etc...
+Array(SequenceableCollection)>>do:separatedBy:
+SystemOrganizer>>fileOutCategory:on:initializing:
+SystemOrganizer>>fileOutCategory:on:
+[ :each | 
+SystemOrganization
+	fileOutCategory: each categoryName
+	on: internalStream ] in RPackage>>fileOut in Block: [ :each | ...
+Set>>do:
+RPackage>>fileOut
+[ :package | package asNautilusSelection item fileOut ] in NautilusUI>>fileOutPackages: in Block: [ :package | package asNautilusSelection item file...etc...
+[ :element | 
+aBlock value: element.
+bar increment ] in [ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :element | ...
+Array(SequenceableCollection)>>do:
+[ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :bar | ...
+BlockClosure>>cull:
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ ^ block cull: self ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+CurrentJob(DynamicVariable)>>value:during:
+CurrentJob class(DynamicVariable class)>>value:during:
+[ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ self prepareForRunning....
+[0m[31mInstance of MultiByteFileStream did not understand #adaptToNumber:andSend:
+[0mMultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>>>
+SmallInteger>>>
+SourceFileArray>>readStreamAtFileIndex:atPosition:ifPresent:ifAbsent:
+RemoteString>>string
+ClassOrganization>>comment
+ClassOrganization>>classComment
+ClassOrganization>>putCommentOnFile:forClass:
+ContenidoComponent class(ClassDescription)>>fileOutOn:
+ContenidoComponent class(Class)>>fileOutOn:initializing:
+[ :each | each fileOutOn: aFileStream initializing: false ] in SystemOrganizer>>fileOutCategory:on:initializing: in Block: [ :each | each fileOutOn: aFileStream initializing...etc...
+Array(SequenceableCollection)>>do:separatedBy:
+SystemOrganizer>>fileOutCategory:on:initializing:
+SystemOrganizer>>fileOutCategory:on:
+[ :each | 
+SystemOrganization
+	fileOutCategory: each categoryName
+	on: internalStream ] in RPackage>>fileOut in Block: [ :each | ...
+Set>>do:
+RPackage>>fileOut
+[ :package | package asNautilusSelection item fileOut ] in NautilusUI>>fileOutPackages: in Block: [ :package | package asNautilusSelection item file...etc...
+[ :element | 
+aBlock value: element.
+bar increment ] in [ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :element | ...
+Array(SequenceableCollection)>>do:
+[ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :bar | ...
+BlockClosure>>cull:
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ ^ block cull: self ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+CurrentJob(DynamicVariable)>>value:during:
+[0m[31mInstance of MultiByteFileStream did not understand #adaptToNumber:andSend:
+[0mMultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>>>
+SmallInteger>>>
+SourceFileArray>>readStreamAtFileIndex:atPosition:ifPresent:ifAbsent:
+RemoteString>>string
+ClassOrganization>>comment
+ClassOrganization>>classComment
+ClassOrganization>>putCommentOnFile:forClass:
+ContenidoComponent class(ClassDescription)>>fileOutOn:
+ContenidoComponent class(Class)>>fileOutOn:initializing:
+[ :each | each fileOutOn: aFileStream initializing: false ] in SystemOrganizer>>fileOutCategory:on:initializing: in Block: [ :each | each fileOutOn: aFileStream initializing...etc...
+Array(SequenceableCollection)>>do:separatedBy:
+SystemOrganizer>>fileOutCategory:on:initializing:
+SystemOrganizer>>fileOutCategory:on:
+[ :each | 
+SystemOrganization
+	fileOutCategory: each categoryName
+	on: internalStream ] in RPackage>>fileOut in Block: [ :each | ...
+Set>>do:
+RPackage>>fileOut
+[ :package | package asNautilusSelection item fileOut ] in NautilusUI>>fileOutPackages: in Block: [ :package | package asNautilusSelection item file...etc...
+[ :element | 
+aBlock value: element.
+bar increment ] in [ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :element | ...
+Array(SequenceableCollection)>>do:
+[ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :bar | ...
+BlockClosure>>cull:
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ ^ block cull: self ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+[0m[31mInstance of MultiByteFileStream did not understand #adaptToNumber:andSend:
+[0mMultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+Message>>sentTo:
+MultiByteFileStream(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andSend:
+MultiByteFileStream(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>>>
+SmallInteger>>>
+SourceFileArray>>readStreamAtFileIndex:atPosition:ifPresent:ifAbsent:
+RemoteString>>string
+ClassOrganization>>comment
+ClassOrganization>>classComment
+ClassOrganization>>putCommentOnFile:forClass:
+ContenidoComponent class(ClassDescription)>>fileOutOn:
+ContenidoComponent class(Class)>>fileOutOn:initializing:
+[ :each | each fileOutOn: aFileStream initializing: false ] in SystemOrganizer>>fileOutCategory:on:initializing: in Block: [ :each | each fileOutOn: aFileStream initializing...etc...
+Array(SequenceableCollection)>>do:separatedBy:
+SystemOrganizer>>fileOutCategory:on:initializing:
+SystemOrganizer>>fileOutCategory:on:
+[ :each | 
+SystemOrganization
+	fileOutCategory: each categoryName
+	on: internalStream ] in RPackage>>fileOut in Block: [ :each | ...
+Set>>do:
+RPackage>>fileOut
+[ :package | package asNautilusSelection item fileOut ] in NautilusUI>>fileOutPackages: in Block: [ :package | package asNautilusSelection item file...etc...
+[ :element | 
+aBlock value: element.
+bar increment ] in [ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :element | ...
+Array(SequenceableCollection)>>do:
+[ :bar | 
+aCollection
+	do: [ :element | 
+		aBlock value: element.
+		bar increment ] ] in NautilusUI(AbstractTool)>>do:on:displaying: in Block: [ :bar | ...
+BlockClosure>>cull:
+[0m

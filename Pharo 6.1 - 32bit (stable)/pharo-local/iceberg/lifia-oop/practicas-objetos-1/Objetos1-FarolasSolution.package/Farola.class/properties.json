@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Casco 8/24/2018 10:23",
+	"super" : "Object",
+	"category" : "Objetos1-FarolasSolution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isOn",
+		"neighbors"
+	],
+	"name" : "Farola",
+	"type" : "normal"
+}

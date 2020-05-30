@@ -1,0 +1,3 @@
+carrito
+productosEnElCarrito
+	^ carrito productos

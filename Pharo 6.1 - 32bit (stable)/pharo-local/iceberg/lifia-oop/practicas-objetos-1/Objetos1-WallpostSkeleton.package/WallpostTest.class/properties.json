@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Objetos1-WallpostSkeleton-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"wallpost",
+		"coolPost"
+	],
+	"name" : "WallpostTest",
+	"type" : "normal"
+}

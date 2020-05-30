@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Objetos1-DistribuidoraSolution-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fecha",
+		"monto",
+		"descuento",
+		"usuario"
+	],
+	"name" : "Factura",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+|BAG ORD archivo1 archivo2 archivo3 archivo4|ORD := OrderedCollection new.archivo1:= Archivo new nombre:'hola'.archivo2:= Archivo new nombre:'ho'.archivo3:= Archivo new nombre:'holas'.archivo4:= Archivo new nombre:'hola'.ORD add:archivo1 ;add: archivo2 ;add: archivo3 ;add: archivo4.

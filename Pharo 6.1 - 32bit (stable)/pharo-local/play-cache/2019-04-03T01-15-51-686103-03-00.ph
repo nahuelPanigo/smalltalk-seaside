@@ -1,0 +1,1 @@
+|array1 col|array1 :=Array  with:2  with:1  with:3. array1 first.

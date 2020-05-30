@@ -1,0 +1,1 @@
+|fecha1|fecha1 := Date newDay:26 month: 6 year: 1999.Date today subtractDate: fecha1.7231-7078

@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "Casco 9/5/2018 21:15",
+	"super" : "Object",
+	"category" : "Objetos1-Gloovo-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"negocios",
+		"productos",
+		"clientes",
+		"gloovers",
+		"nombre",
+		"glooversPorChequear",
+		"pedidos",
+		"numeroUltimoPedido"
+	],
+	"name" : "EmpresaDePedidos",
+	"type" : "normal"
+}

@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "Casco 8/13/2018 10:03",
+	"super" : "ComposableModel",
+	"category" : "Objetos1-WallpostSkeleton-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text",
+		"likeButton",
+		"dislikeButton",
+		"likesLabel",
+		"wallpost",
+		"staticLikesLabel",
+		"staticFeaturedLabel",
+		"featuredCheckbox",
+		"inspectButton"
+	],
+	"name" : "WallpostUI",
+	"type" : "normal"
+}

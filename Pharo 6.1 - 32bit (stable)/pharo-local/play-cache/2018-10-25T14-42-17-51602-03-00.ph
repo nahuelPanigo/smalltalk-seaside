@@ -1,0 +1,1 @@
+|ord ord2|ord := OrderedCollection new.ord add:4; add: 5; add: 6.ord2 := OrderedCollection new.ord2 add:7; add: 7; add: 7.ord includesAny: ord2  .

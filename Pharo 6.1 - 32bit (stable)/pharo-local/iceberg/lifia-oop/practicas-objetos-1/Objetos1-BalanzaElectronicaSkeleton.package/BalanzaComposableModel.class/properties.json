@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "Casco 8/5/2018 19:23",
+	"super" : "ComposableModel",
+	"category" : "Objetos1-BalanzaElectronicaSkeleton-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"balanza",
+		"ponerEnCeroButton",
+		"agregarProductoButton",
+		"precioTotalLabel",
+		"pesoTotalLabel",
+		"cantidadLabel",
+		"emitirComprobanteButton"
+	],
+	"name" : "BalanzaComposableModel",
+	"type" : "normal"
+}

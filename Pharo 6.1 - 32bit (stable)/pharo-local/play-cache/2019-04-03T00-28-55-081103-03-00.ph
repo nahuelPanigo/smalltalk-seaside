@@ -1,0 +1,1 @@
+LoginComponent initialize .WAAdmin register: LoginComponent asApplicationAt: 'CuOOra/index'.

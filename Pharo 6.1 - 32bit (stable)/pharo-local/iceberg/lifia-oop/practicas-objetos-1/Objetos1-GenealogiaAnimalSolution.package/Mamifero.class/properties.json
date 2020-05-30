@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Casco 8/23/2018 09:19",
+	"super" : "Object",
+	"category" : "Objetos1-GenealogiaAnimalSolution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"padre",
+		"madre",
+		"identificador",
+		"especie"
+	],
+	"name" : "Mamifero",
+	"type" : "normal"
+}

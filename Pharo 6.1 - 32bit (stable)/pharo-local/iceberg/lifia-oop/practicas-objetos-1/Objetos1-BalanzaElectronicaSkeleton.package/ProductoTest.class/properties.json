@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-BalanzaElectronicaSkeleton-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queso"
+	],
+	"name" : "ProductoTest",
+	"type" : "normal"
+}

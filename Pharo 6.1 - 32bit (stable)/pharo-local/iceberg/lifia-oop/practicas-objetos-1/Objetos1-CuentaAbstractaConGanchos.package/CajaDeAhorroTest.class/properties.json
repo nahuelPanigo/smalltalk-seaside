@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-CuentaAbstractaConGanchos-Testing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"unaCaja",
+		"otraCaja"
+	],
+	"name" : "CajaDeAhorroTest",
+	"type" : "normal"
+}

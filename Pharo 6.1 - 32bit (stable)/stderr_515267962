@@ -1,0 +1,49 @@
+[31mPharo cannot write to the changes file named C:\Users\nahue\Documents\Pharo\images\Pharo 6.1 - 32bit (stable)\Pharo 6.1 - 32bit (stable).changes.
+
+Please check that you have write permission for this file.
+
+You won't be able to save this image correctly until you fix this.
+[0mStartupUIManager>>inform:
+PharoFilesOpener(Object)>>inform:
+PharoFilesOpener>>inform:withRef:
+PharoFilesOpener>>inform:withChangesRef:
+PharoFilesOpener>>informProblemInChanges:
+PharoFilesOpener>>changesFileOrNil
+SourceFileArray>>ensureOpen
+SmalltalkImage>>openSourceFiles
+SmalltalkImage class>>startUp:
+ClassSessionHandler>>startup:
+[ :arg2 | arg2 startup: arg1 ] in WorkingSession>>runStartup: in Block: [ :arg2 | arg2 startup: arg1 ]
+[ arg2 value: arg3 ] in [ :arg3 | 
+[ arg2 value: arg3 ]
+	on: Exception
+	do: [ :arg4 | self errorHandler handleError: arg4 ] ] in WorkingSession>>runList:do: in Block: [ arg2 value: arg3 ]
+BlockClosure>>on:do:
+[ :arg3 | 
+[ arg2 value: arg3 ]
+	on: Exception
+	do: [ :arg4 | self errorHandler handleError: arg4 ] ] in WorkingSession>>runList:do: in Block: [ :arg3 | ...
+Array(SequenceableCollection)>>do:
+WorkingSession>>runList:do:
+WorkingSession>>runStartup:
+WorkingSession>>start:
+SessionManager>>snapshot:andQuit:
+[ ^ SessionManager default snapshot: arg1 andQuit: arg2 ] in SmalltalkImage>>snapshot:andQuit: in Block: [ ^ SessionManager default snapshot: arg1 andQuit:...etc...
+CurrentExecutionEnvironment class>>activate:for:
+DefaultExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment class>>beActiveDuring:
+SmalltalkImage>>snapshot:andQuit:
+[ Smalltalk snapshot: true andQuit: true ] in WorldState class>>saveAndQuit in Block: [ Smalltalk snapshot: true andQuit: true ]
+BlockClosure>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+WorldState class>>saveAndQuit
+[ | tmp2 |
+(tmp2 := selector numArgs) = 0
+	ifTrue: [ target perform: selector ]
+	ifFalse: [ tmp2 = arguments size
+			ifTrue: [ target perform: selector withArguments: arguments ]
+			ifFalse: [ target perform: selector withArguments: (arguments copyWith: arg1) ].
+		self showShortcut ].
+self changed ] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent: in Block: [ | tmp2 |...
+BlockClosure>>ensure:
+[0m

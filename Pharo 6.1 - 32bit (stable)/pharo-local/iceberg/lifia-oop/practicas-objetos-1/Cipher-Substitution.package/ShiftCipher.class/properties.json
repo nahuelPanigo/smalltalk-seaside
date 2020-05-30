@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SubstitutionCipher",
+	"category" : "Cipher-Substitution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hops"
+	],
+	"name" : "ShiftCipher",
+	"type" : "normal"
+}

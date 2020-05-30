@@ -1,0 +1,1 @@
+|ord1 ord2 ord3 coleccion set|coleccion := OrderedCollection new.ord1:= OrderedCollection new.ord2:=OrderedCollection new.ord3 := OrderedCollection new.ord1 add:4;add:6;add:9;add:8;add:4.ord2 add:5;add:9;add:7;add:3.ord3 add:1;add:2;add:3;add:4.coleccion add:ord1 .coleccion add:ord2.coleccion add:ord3.set := Set new.set := coleccion flattened asSet

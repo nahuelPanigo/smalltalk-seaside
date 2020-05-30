@@ -1,0 +1,1 @@
+|ord1 ord2 ord3 cal|ord1 ,ord3ord4:= OrderedCollection new.ord1 add: 100; add: 5; add: 100.ord2 add: 5; add:8 ;add: 100.ord3 :=ord1 select: [:num |num =3 or:[num=5 or:[num = 100]]]. cal :=ord3 asSet .cal size

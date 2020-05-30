@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-GenealogiaAnimalSkeleton",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nala",
+		"melquiades",
+		"mufasa",
+		"alexa",
+		"elsa",
+		"scar",
+		"sarabi",
+		"anonimo"
+	],
+	"name" : "MamiferoTest",
+	"type" : "normal"
+}

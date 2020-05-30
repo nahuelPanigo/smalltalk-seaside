@@ -1,0 +1,1 @@
+|ord1 ord2 ord3 ord nueva aux|ord1:= OrderedCollection new.ord1 add:1;add: 2;add:3;add:4;add:5;add:6.ord2:=ord1 asArray .ord3:=OrderedCollection new.ord2 from: 1 to: 5 do:[:elem|ord3 add: elem].ord3 .

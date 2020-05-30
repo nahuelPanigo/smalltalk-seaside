@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-FarolasSkeleton",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"farolaUno",
+		"farolaDos"
+	],
+	"name" : "TestFarola",
+	"type" : "normal"
+}

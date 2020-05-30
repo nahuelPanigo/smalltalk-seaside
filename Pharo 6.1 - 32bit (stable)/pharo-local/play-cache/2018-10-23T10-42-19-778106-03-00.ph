@@ -1,0 +1,1 @@
+|d fecha1 fecha2 fecha3|fecha1 :=Date newDay:26  month:6  year:1999.fecha2 := Date newDay:23  month:10  year:2018.fecha3 := Date newDay:5  month:5  year:2003.d := DateLapse from: fecha1 to:fecha2.d sizeInDays .d includesDate: fecha3 .   

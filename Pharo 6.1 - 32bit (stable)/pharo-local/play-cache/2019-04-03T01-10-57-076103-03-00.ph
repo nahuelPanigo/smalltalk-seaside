@@ -1,0 +1,1 @@
+|array1 array2|array1 :=Array  with:1  with:2  with:3.array2 := array1 selectedInterval: [1 to: 2] .array2 size 

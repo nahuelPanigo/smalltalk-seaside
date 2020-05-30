@@ -1,0 +1,485 @@
+[31m#newDay:month:year: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #newDay:month:year:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>popupPrint
+MorphicAlarm(MessageSend)>>value
+MorphicAlarm>>value:
+WorldState>>triggerAlarmsBefore:
+WorldState>>runLocalStepMethodsIn:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#newDay:month:year: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #newDay:month:year:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>popupPrint
+MorphicAlarm(MessageSend)>>value
+MorphicAlarm>>value:
+WorldState>>triggerAlarmsBefore:
+WorldState>>runLocalStepMethodsIn:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mError: Instances of DateLapse are not indexable
+[0mDateLapse(Object)>>error:
+DateLapse(Object)>>errorNotIndexable
+DateLapse(Object)>>size
+TestDateLapse>>testsize
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mError: Instances of DateLapse are not indexable
+[0mDateLapse(Object)>>error:
+DateLapse(Object)>>errorNotIndexable
+DateLapse(Object)>>size
+TestDateLapse>>testsize
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Got 368 instead of 367.
+[0mTestDateLapse(TestAsserter)>>assert:description:
+TestDateLapse(TestAsserter)>>assert:equals:
+TestDateLapse>>testSizeInDays
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Got 368 instead of 367.
+[0mTestDateLapse(TestAsserter)>>assert:description:
+TestDateLapse(TestAsserter)>>assert:equals:
+TestDateLapse>>testSizeInDays
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Got 368 instead of 367.
+[0mTestDateLapse(TestAsserter)>>assert:description:
+TestDateLapse(TestAsserter)>>assert:equals:
+TestDateLapse>>testSizeInDays
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Got 368 instead of 2.
+[0mTestDateLapse(TestAsserter)>>assert:description:
+TestDateLapse(TestAsserter)>>assert:equals:
+TestDateLapse>>testSizeInDays
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Got true instead of false.
+[0mTestDateLapse(TestAsserter)>>assert:description:
+TestDateLapse(TestAsserter)>>assert:equals:
+TestDateLapse>>testIncludesDate
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TestDateLapse(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31m#< was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #<
+Date(Magnitude)>>>
+Date(Magnitude)>><=
+Date(Magnitude)>>between:and:
+DateLapse>>includesDate:
+TestDateLapse>>testIncludesDate
+TestDateLapse(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TestDateLapse(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TestDateLapse(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: arg1.
+arg1 activated.
+arg2 value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: arg1....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TestDateLapse(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+[0m

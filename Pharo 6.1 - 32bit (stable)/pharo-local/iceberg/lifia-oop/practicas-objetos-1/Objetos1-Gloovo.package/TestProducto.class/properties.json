@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-Gloovo-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"muza",
+		"pedidosAntes"
+	],
+	"name" : "TestProducto",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-Gloovo-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"miguelCromprador",
+		"pedidosAntes",
+		"muza"
+	],
+	"name" : "TestCliente",
+	"type" : "normal"
+}

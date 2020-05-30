@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "Casco 8/13/2018 11:04",
+	"super" : "TestCase",
+	"category" : "Objetos1-BalanzaElectronicaSkeleton-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"balanza",
+		"queso",
+		"jamon"
+	],
+	"name" : "BalanzaTest",
+	"type" : "normal"
+}

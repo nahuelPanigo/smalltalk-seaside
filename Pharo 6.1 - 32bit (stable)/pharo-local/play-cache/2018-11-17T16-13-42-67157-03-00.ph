@@ -1,0 +1,1 @@
+|fecha1 fecha2|fecha2 := Date newDay:26  month:6  year:1999 .fecha1 := Date today.(fecha1 subtractDate: fecha2) // 365.

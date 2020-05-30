@@ -1,0 +1,1 @@
+HolaMundo initialize .WAAdmin register: HolaMundo  asApplicationAt:'hola'

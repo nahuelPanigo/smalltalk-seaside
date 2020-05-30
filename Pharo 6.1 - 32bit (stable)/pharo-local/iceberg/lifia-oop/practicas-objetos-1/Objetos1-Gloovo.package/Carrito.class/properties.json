@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 9/6/2018 20:45",
+	"super" : "Object",
+	"category" : "Objetos1-Gloovo-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"productos"
+	],
+	"name" : "Carrito",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+|ord1 set|ord1:=OrderedCollection new.set:=Set new.ord1 add:1;add:2;add:4.set addAll: ord1

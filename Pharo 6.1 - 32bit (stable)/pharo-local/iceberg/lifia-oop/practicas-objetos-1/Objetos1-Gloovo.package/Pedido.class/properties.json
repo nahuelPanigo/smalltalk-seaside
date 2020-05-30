@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "Casco 9/7/2018 18:50",
+	"super" : "Object",
+	"category" : "Objetos1-Gloovo-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"numero",
+		"estado",
+		"cliente",
+		"productos",
+		"direccionDeEnvio",
+		"formaDePago"
+	],
+	"name" : "Pedido",
+	"type" : "normal"
+}

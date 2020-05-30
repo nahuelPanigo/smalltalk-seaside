@@ -1,0 +1,1 @@
+|Order|Order := OrderedCollection new.Order sumNumbers: [:numero|numero ]

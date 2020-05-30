@@ -1,0 +1,1 @@
+|o1 o2|o1:= Set new.o1 add: 1; add:2; add: 3.o2:= Set new.o2 add: 11; add:0; add: 4.(o1 intersection: o2 ) notNil 

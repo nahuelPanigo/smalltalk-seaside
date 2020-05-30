@@ -1,0 +1,1 @@
+|coleccion|coleccion := SortedCollection .coleccion add:4.

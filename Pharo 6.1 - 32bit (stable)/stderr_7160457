@@ -1,0 +1,280 @@
+[31mHalt
+[0mPreguntaComponent>>realizarUnaRespuesta:
+PreguntaComponent>>renderRespuestasOn:
+PreguntaComponent>>contenidoDe:on:
+PreguntaComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+PreguntaComponent(WAPresenter)>>renderUndecoratedWithContext:
+WAAnswerHandler(WADecoration)>>renderNextOn:
+WAAnswerHandler(WADecoration)>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+PreguntaComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+PreguntaComponent(WAPainter)>>renderWithContext:
+PreguntaComponent(WAPainter)>>renderOn:
+[0m[31mHalt
+[0mPreguntaComponent>>realizarUnaRespuesta:
+PreguntaComponent>>renderRespuestasOn:
+PreguntaComponent>>contenidoDe:on:
+PreguntaComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+PreguntaComponent(WAPresenter)>>renderUndecoratedWithContext:
+WAAnswerHandler(WADecoration)>>renderNextOn:
+WAAnswerHandler(WADecoration)>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+PreguntaComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+PreguntaComponent(WAPainter)>>renderWithContext:
+PreguntaComponent(WAPainter)>>renderOn:
+[0m[31mHalt
+[0mPreguntaComponent>>realizarUnaRespuesta:
+PreguntaComponent>>renderRespuestasOn:
+PreguntaComponent>>contenidoDe:on:
+PreguntaComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+PreguntaComponent(WAComponent)>>accept:
+PreguntaComponent(WAPresenter)>>renderUndecoratedWithContext:
+WAAnswerHandler(WADecoration)>>renderNextOn:
+WAAnswerHandler(WADecoration)>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+PreguntaComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+PreguntaComponent(WAPainter)>>renderWithContext:
+PreguntaComponent(WAPainter)>>renderOn:
+[0m[31mHalt
+[0mRespuestaComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+RespuestaComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+RespuestaComponent(WAComponent)>>accept:
+RespuestaComponent(WAPresenter)>>renderUndecoratedWithContext:
+WAAnswerHandler(WADecoration)>>renderNextOn:
+WAAnswerHandler(WADecoration)>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+RespuestaComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+RespuestaComponent(WAPainter)>>renderWithContext:
+RespuestaComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WADelegation>>renderContentOn:
+[0m[31mHalt
+[0mRespuestaComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+RespuestaComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+RespuestaComponent(WAComponent)>>accept:
+RespuestaComponent(WAPresenter)>>renderUndecoratedWithContext:
+WAAnswerHandler(WADecoration)>>renderNextOn:
+WAAnswerHandler(WADecoration)>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitDecoration:
+WAAnswerHandler(WADecoration)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+RespuestaComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+RespuestaComponent(WAPainter)>>renderWithContext:
+RespuestaComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WADelegation>>renderContentOn:
+[0m[31mMessageNotUnderstood: RespuestaComponent>>on:
+[0mRespuestaComponent(Object)>>doesNotUnderstand: #on:
+RespuestaComponent class>>newResp
+PreguntaComponent>>newRespuesta
+[ self newRespuesta ] in PreguntaComponent>>realizarUnaRespuesta: in Block: [ self newRespuesta ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WAWalkbackErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+BlockClosure>>on:do:
+WACurrentRequestContext class(WADynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[ super handle: aRequestContext ] in WACallbackProcessingActionContinuation(WASessionContinuation)>>handle: in Block: [ super handle: aRequestContext ]
+[0m[31mMessageNotUnderstood: RespuestaComponent>>on:
+[0mRespuestaComponent(Object)>>doesNotUnderstand: #on:
+RespuestaComponent class>>newResp
+PreguntaComponent>>newRespuesta
+[ self newRespuesta ] in PreguntaComponent>>realizarUnaRespuesta: in Block: [ self newRespuesta ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WAWalkbackErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+BlockClosure>>on:do:
+WACurrentRequestContext class(WADynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[ super handle: aRequestContext ] in WACallbackProcessingActionContinuation(WASessionContinuation)>>handle: in Block: [ super handle: aRequestContext ]
+[0m[31mMessageNotUnderstood: RespuestaComponent>>on:
+[0mRespuestaComponent(Object)>>doesNotUnderstand: #on:
+RespuestaComponent class>>newResp
+PreguntaComponent>>newRespuesta
+[ self newRespuesta ] in PreguntaComponent>>realizarUnaRespuesta: in Block: [ self newRespuesta ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WAWalkbackErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+BlockClosure>>on:do:
+WACurrentRequestContext class(WADynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[ super handle: aRequestContext ] in WACallbackProcessingActionContinuation(WASessionContinuation)>>handle: in Block: [ super handle: aRequestContext ]
+[0m[31mMessageNotUnderstood: RespuestaComponent>>on:
+[0mRespuestaComponent(Object)>>doesNotUnderstand: #on:
+RespuestaComponent class>>newResp
+PreguntaComponent>>newRespuesta
+[ self newRespuesta ] in PreguntaComponent>>realizarUnaRespuesta: in Block: [ self newRespuesta ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WAWalkbackErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+BlockClosure>>on:do:
+WACurrentRequestContext class(WADynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[ super handle: aRequestContext ] in WACallbackProcessingActionContinuation(WASessionContinuation)>>handle: in Block: [ super handle: aRequestContext ]
+[0m

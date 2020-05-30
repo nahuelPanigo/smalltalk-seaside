@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-Gloovo-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gloovo",
+		"polloListo",
+		"polloAlEspiedo",
+		"luisa"
+	],
+	"name" : "TestEmpresaDePedidos",
+	"type" : "normal"
+}

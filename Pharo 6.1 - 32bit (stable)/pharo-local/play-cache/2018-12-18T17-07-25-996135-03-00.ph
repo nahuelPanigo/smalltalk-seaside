@@ -1,0 +1,1 @@
+tamanio1 :=coleccion .tamanio1 nombrefirs tamanio2 ta

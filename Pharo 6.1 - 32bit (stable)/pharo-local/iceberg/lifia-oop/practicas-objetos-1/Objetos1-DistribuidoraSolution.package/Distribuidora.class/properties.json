@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Objetos1-DistribuidoraSolution-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuarios",
+		"precioKWh"
+	],
+	"name" : "Distribuidora",
+	"type" : "normal"
+}

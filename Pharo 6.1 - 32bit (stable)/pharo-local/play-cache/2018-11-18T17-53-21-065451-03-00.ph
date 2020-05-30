@@ -1,0 +1,1 @@
+|nombre1 nombre2|nombre1 := 'hola mi nombre es nahuel'.nombre2 := 'hola'.nombre2 := '*'+nombre2+'*' .nombre2 match: nombre1  

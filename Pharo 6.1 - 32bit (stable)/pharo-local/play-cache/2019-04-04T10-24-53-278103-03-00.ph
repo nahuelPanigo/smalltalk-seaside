@@ -1,0 +1,1 @@
+|fecha|fecha := DateAndTime now.

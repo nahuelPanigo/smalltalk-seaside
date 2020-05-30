@@ -1,0 +1,1 @@
+|ord1 ord2 ord3 ord4|ord1 := OrderedCollection new.ord2 := OrderedCollection new.ord3 := OrderedCollection new.ord4 := OrderedCollection new.ord1 add:1 ;add: 5; add:9.ord2 add:4 ;add: 4; add:6. ord4 addAll:ord1 ;addAll: ord2; addAll:ord3. ord4 sum:[:int |int] 

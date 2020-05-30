@@ -1,0 +1,1 @@
+|cadena|cadena := String new.cadena:='ahre ' .cadena

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 8/19/2018 16:20",
+	"super" : "Cuenta",
+	"category" : "Objetos1-CuentaAbstractaConGanchos-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"limiteDescubierto"
+	],
+	"name" : "CuentaCorriente",
+	"type" : "normal"
+}
